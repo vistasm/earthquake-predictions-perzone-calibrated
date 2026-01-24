@@ -1,0 +1,10 @@
+{
+  "model_version": "V200_PerZone_Production",
+  "model_type": "per_zone_calibrated",
+  "training_date": "2026-01-24",
+  "deployment_date": "2026-01-24",
+  "n_zones": 563,
+  "tiers": ["T1_micro", "T2_felt", "T3_minor", "T4_damage"],
+  "budgets": [0.5, 1.0, 2.0, 5.0, 10.0],
+  "calibration_mode": "per_zone_with_global_fallback"
+}
