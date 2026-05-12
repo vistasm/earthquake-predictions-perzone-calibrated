@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "prediction_date": "2026-05-12",
+    "generated_at": "2026-05-12T06:16:07Z",
+    "model_version": "N/A",
+    "n_zones": 0,
+    "tiers": [
+      "T1_micro",
+      "T2_felt",
+      "T3_minor",
+      "T4_damage"
+    ],
+    "budgets": [
+      "0.5pct",
+      "1.0pct",
+      "2.0pct",
+      "5.0pct",
+      "10.0pct"
+    ],
+    "status": "FAILED",
+    "error_message": "Step 1 (USGS Data Fetch) failed: USGS API unavailable: HTTPSConnectionPool(host='earthquake.usgs.gov', port=443): Read timed out. (read timeout=60). Cannot fetch latest earthquake data.",
+    "data_hash": "N/A"
+  },
+  "predictions": [],
+  "summary": {
+    "T1_micro": {
+      "total_alerts": {
+        "0.5pct": 0,
+        "1.0pct": 0,
+        "2.0pct": 0,
+        "5.0pct": 0,
+        "10.0pct": 0
+      },
+      "status": "NO_DATA"
+    },
+    "T2_felt": {
+      "total_alerts": {
+        "0.5pct": 0,
+        "1.0pct": 0,
+        "2.0pct": 0,
+        "5.0pct": 0,
+        "10.0pct": 0
+      },
+      "status": "NO_DATA"
+    },
+    "T3_minor": {
+      "total_alerts": {
+        "0.5pct": 0,
+        "1.0pct": 0,
+        "2.0pct": 0,
+        "5.0pct": 0,
+        "10.0pct": 0
+      },
+      "status": "NO_DATA"
+    },
+    "T4_damage": {
+      "total_alerts": {
+        "0.5pct": 0,
+        "1.0pct": 0,
+        "2.0pct": 0,
+        "5.0pct": 0,
+        "10.0pct": 0
+      },
+      "status": "NO_DATA"
+    }
+  }
+}
